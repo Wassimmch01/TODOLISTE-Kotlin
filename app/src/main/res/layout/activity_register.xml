@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:padding="24dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Créer un compte"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:textColor="#516DA6"
+        android:layout_marginBottom="24dp"
+        android:fontFamily="@font/poppins_bold" />
+
+    <EditText
+        android:id="@+id/registerEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:backgroundTint="#516DA6"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:minHeight="48dp"
+        android:textColor="#516DA6"
+        android:textColorHint="#999999"
+        android:fontFamily="@font/poppins_regular" />
+
+    <EditText
+        android:id="@+id/registerPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#516DA6"
+        android:hint="Mot de passe"
+        android:inputType="textPassword"
+        android:minHeight="48dp"
+        android:textColor="#516DA6"
+        android:textColorHint="#999999"
+        android:fontFamily="@font/poppins_regular" />
+
+    <Button
+        android:id="@+id/registerButton"
+        android:text="S'inscrire"
+        android:backgroundTint="#516DA6"
+        android:textColor="#FFFFFF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_regular" />
+
+    <Button
+        android:id="@+id/loginRedirect"
+        android:text="Déjà un compte ? Se connecter"
+        android:backgroundTint="#516DA6"
+        android:textColor="#FFFFFF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:fontFamily="@font/poppins_regular" />
+</LinearLayout>
